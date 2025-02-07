@@ -18,14 +18,14 @@ export default function NewItem() {
       <div>
         <button
           onClick={handleAdd}
-          disabled={value == 20}
+          disabled={value === 20}
           className="bg-blue-400 p-2 m-2 rounded-sm hover:bg-blue-700 text-white disabled:bg-gray-500"
         >
           Add
         </button>
         <button
           onClick={handleSubtract}
-          disabled={value == 1}
+          disabled={value === 1}
           className="bg-blue-400 p-2 m-2 rounded-sm hover:bg-blue-700 text-white disabled:bg-gray-500"
         >
           Subtract

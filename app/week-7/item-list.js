@@ -23,7 +23,7 @@ export default function ItemList({ items }) {
     return itemsList;
   }
 
-  handleSorting(items, sortBy);
+  const sortedItems = handleSorting(items, sortBy);
 
   return (
     <div>
@@ -53,7 +53,7 @@ export default function ItemList({ items }) {
         </button>
       </div>
       <div className="flex flex-col md:flex-row flex-wrap m-2 p-2 gap-3">
-        {items.map((item) => (
+        {sortedItems.map((item) => (
           <Item
             name={item.name}
             quantity={item.quantity}

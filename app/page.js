@@ -27,6 +27,9 @@ export default function Page() {
       <p className="text-green-600 text-2xl mb-3">
         <Link href="./week-8">Week 8 Assignment</Link>
       </p>
+      <p className="text-green-600 text-2xl mb-3">
+        <Link href="./week-9">Week 9 Assignment</Link>
+      </p>
     </div>
   );
 }
